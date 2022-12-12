@@ -11,7 +11,6 @@ def main():
 
     random_numbers = []
 
-    # input
     for loop_counter in range(0, 10):
         single_random_number = random.randint(0, 100)
         random_numbers.append(single_random_number)
