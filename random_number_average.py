@@ -17,7 +17,7 @@ def main():
 
     for loop_counter in range(0, 10):
         print("The random number is: {0}".format(random_numbers[loop_counter]))
-    # sum(random_numbers) adds all variables in the list
+    # sum(random_numbers) adds all variables in the array
     average = sum(random_numbers) / len(random_numbers)
     print("")
     print("The average is {0}".format(average))
